@@ -1,0 +1,53 @@
+
+body{
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 ;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.242);
+
+}
+.gameName{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 360px;
+    box-shadow: 0px 1px ;
+    
+    
+}
+
+/*boxgame*/
+.box{
+   
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border: solid black 1px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.724);
+}
+
+/*gameBlock*/
+.gameBlock{
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+}
+
+/*moveblock*/
+.moveblock{
+    position: absolute;
+    background-color: rgb(250, 99, 44);
+    width:100px ;
+    height: 20px;
+}
+
+/*ballGame*/
+.ballGame{
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius:20px ;
+}
