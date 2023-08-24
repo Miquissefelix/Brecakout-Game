@@ -148,6 +148,26 @@ function checkForCollisions() {
 
 
 function changeDirection() {
+
+  // switch(`${xDirection},${yDirection}`){
+  //   case ' 2,2':
+  //     yDirection-2;
+      
+  //     break;
+
+  //     case '2,-2':
+  //       xDirection = -2;
+  //       break;
+
+  //       case '-2,-2':
+  //         yDirection = 2;
+  //         break;
+  //          case '-2,2':
+  //           xDirection = 2;
+  //           break;
+
+
+  
   if (xDirection === 2 && yDirection === 2) {
       yDirection = -2;
       return;
@@ -165,4 +185,4 @@ function changeDirection() {
       xDirection = 2;
       return;
     }
-}
+  }
